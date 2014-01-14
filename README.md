@@ -1,8 +1,9 @@
-# Coding Workshops
+# Tech Spaces in London
 
-A list/map of coding workshops around the world. The website is a fork of the excellent [hack-spot](https://github.com/jlord/hack-spots).
+A list/map of tech spaces in London. The website is a fork of the great [hack-spot](https://github.com/jlord/hack-spots).
 
-The data is stored in this [google spreadsheet](https://docs.google.com/a/roundabout.io/spreadsheet/ccc?key=0AjW3KStmslDndFVrS2x2STNGR3JWZnZyQUxBTjk1RlE#gid=0). Feel free to add more coding workshops!
+The data is stored in this [google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AmK8OoJsMrtedGVxQW82NmRiU18tZnkyVHpjSE5fdnc&usp=drive_web#gid=0), then I've added Lat/Long
+and adjusted few things. 
 
 ## How does it work?
 
