@@ -1,0 +1,81 @@
+/* Page Specific CSS */
+
+body {font-family: Lato; background: #fff; color: #333; font-size: 18px; border: 20px #F8F8F8 solid; margin: 0px; padding: 20px 20px 200px 20px;}
+h1 {font-size: 40px; font-family: Lato; font-weight: normal; margin:0px; margin-bottom: 0.5em;}
+h2 {font-size: 20px; font-family: Lato; font-weight: normal; margin: 11px 0px;}
+h3 {font-family: Lato; font-size: 30px; margin: 10px 0px;}
+h4 {font-family: Lato; font-size: 24px;}
+
+p.heading{font-size:24px; line-height: 30px; margin-bottom:1em;}
+img {width: 100%;} 
+p a, a {color: #333; text-decoration: none; padding-bottom: 0px; border-bottom: 1px #FD9393 solid;}
+a:hover {color: #47CCFC;}
+small {padding: 10px 0px; font-size: 10px;}
+p {margin: 0px; padding: 0px; font-size: 13px; line-height: 20px;}
+li {line-height: 19px; font-size: 14px;}
+ol {line-height: 24px;}
+a.button {border: none;}
+
+pre {word-wrap: break-word; padding: 14px; background: #F0F0F0; }
+code {font-family: "Consolas", "Ubuntu Mono", monospace; line-height: 22px; font-size: 13px; color: #636363; font-weight: normal;}
+
+.red-text {color: #FD9393;}
+
+#map {height: 420px; width: 60%; background: #DADADA; float:left;}
+#map a {border: none;}
+
+.container {margin:0px; margin-bottom:1em;}
+#tableFilter {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; font-family: Lato; color: #333; font-size: 13px; height: 22px;}
+
+::selection {background: #E5FF1D;} 
+::-moz-selection {background: #E5FF1D;}
+
+ul.nav {list-style: none; margin: 0px; padding: 0px;}
+ul.nav li {display: inline; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; padding-right: 4px;}
+ul.nav li a {border: none;}
+ul.nav li a:hover {border-bottom: 1px #FD9393 solid;}
+
+#wrapper {margin: 0px auto; padding-top: 20px; /*margin-left: 250px;*/}
+
+.button {padding: 2px; background-color: #BcBcBc; font-size: 14px; color: #fff;}
+.button:hover {background: #B9FCFC; color: #47CCFC;}
+.fauxButton {padding: 5px 5px; background-color: #FF4646; font-size: 11px; color: #fff; display: inline;}
+.fauxButton .selected {background-color: #FF4646;}
+.colorText {color: #FF4646; text-transform: uppercase; font-weight: 700;}
+
+.leaflet-popup-content h2 {font-family: Lato; font-size: 14px; text-transform: uppercase;}
+
+#rightSide {height: 420px; padding-left: 10px; padding-right: 10px;margin-left:60%;background: #ffffff;}
+#selectedSpot {display: none;}
+#latestSpot ul, #selectedSpot ul {list-style: none; margin-top: 12px 0px; padding: 0px;}
+.category {text-transform: uppercase; font-size: 14px; padding-right: 6px;}
+
+#info p {font-size: 16px; padding: 4px; line-height: 24px; font-weight: 500;}
+#info {border-top: 4px #F8F8F8 solid;}
+
+#hackSpotsTable {cursor: pointer; background: #fff; overflow-x: auto; padding-bottom: 20px;}
+#hackSpotsTable table {min-width: 700px;}
+#hackSpotsTable .tHeader:hover {color: #FF4646;}
+.tHeader::after {content: " \2193 \2191 "; font-size: 10px; padding-left: 3px;}
+.spotRow:hover {color: #FF4646;}
+.spotRow {border-left: 3px solid #ff00ff;}
+.hideRow {display: none;}
+.selectedRow {color: #FF4C0D;}
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px) {
+  body {border: 20px #F8F8F8 solid; margin: 0px; padding: 20px 20px 80px 20px;}
+  #tableFilter, .clear, .resetMap {display: none;}
+  #wrapper {max-width: 460px; padding-top: 20px;}
+  #hackSpotsTable, #map {min-width: 224px;}
+}
+*/
+
+@media only screen and (max-width: 768px)  {
+	#rightSide {margin:0px;margin-top:1em;}
+	#map{float:none;width:100%;height:250px;}
+	h1{font-size:35px;text-align:center;}
+	p.heading{font-size:16px; line-height: 24px;}
+	h2{font-size: 24px;}
+	#rightSide{margin-bottom:1em;background: #fff;padding:0px;}
+	/*.button{display:block;margin-bottom:5px;}*/
+}
